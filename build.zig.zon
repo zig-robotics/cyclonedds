@@ -2,7 +2,7 @@
     .name = "cyclonedds",
     .version = "0.10.5",
     .dependencies = .{
-        .cyclonedds= .{
+        .cyclonedds = .{
             .url = "https://github.com/eclipse-cyclonedds/cyclonedds/archive/tags/0.10.5.tar.gz", // Jazzy
             .hash = "1220a5a5b0b07bbe5e3ff1424c6780f4e5680596809b57fbf155771b7332b5458db6",
         },
@@ -10,5 +10,6 @@
     .paths = .{
         "build.zig",
         "build.zig.zon",
+        "include/dds/export.h",
     },
 }
